@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #FAFAFA;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+.wrap {
+	margin: auto;
+	max-width: 800px;
+	width: 90%;
+}
+
+.principal {
+	background: #455d7a;
+	border-top: 20px solid #233142;
+	color: #fff;
+	padding: 50px 0;
+	width: 100%;
+	text-align: center;
+}
+
+.principal .formulario {
+	color: #212121;
+	text-align: center;
+}
+
+.principal .formulario input[type=text] {
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+}
+
+.principal .formulario input[type=text].error {
+	border: 3px solid #F95959;
+}
+
+.principal .formulario input[type=text].error::placeholder {
+	color: red;
+}
+
+.principal .formulario .boton {
+	background: none;
+	border: 2px solid #f95959;
+	color: #FFF;
+	display: inline-block;
+	font-size: 16px;
+	padding: 15px;
+}
+
+.principal .formulario .boton:hover {
+	border: 2px solid #233142;
+}
+
+/***** Tareas *****/
+.tareas .lista {
+	list-style: none;
+}
+
+.tareas .lista li {
+	border-bottom: 1px solid #B6B6B6;
+}
+
+.tareas .lista li a {
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+
+.tareas .lista li a:hover {
+	text-decoration: line-through;
+}
